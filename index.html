@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>toggle</title>
+
+</head>
+
+<body>
+    <div class="toggle-container">
+    <div class="container">
+        <h1 class="app-heading">Season Toggle</h1>
+        <img src="seasons.jpg" alt="seasons" id="seasons">
+
+
+        <div class="btn-group">
+            <button class="btn btn-summer" onclick="summer()">Summer</button>
+            <button class="btn btn-winter" onclick="winter()">Winter</button>
+            <button class="btn btn-mansoon" onclick="mansoon()">Mansoon</button>
+            
+        </div>
+    </div>
+
+    <div class=" actors-container">
+        <h1 class="app-heading">Actor</h1>
+        <img src="actors.webp" alt="actors" id="actors">
+
+
+        <div class="btn-group">
+            <button class="actors-btn btn-ashok" onclick="AshokSaraf()">Ashok Saraf</button>
+            <button class="actors-btn btn-laxmikant" onclick="LaxmikantBerde()">Laxmikant Berde</button>
+            <button class="actors-btn btn-sachin" onclick="SachinPilgavkar()">Sachin Pilgavkar</button>
+            <button class="actors-btn btn-mahesh" onclick="MaheshKothare()">Mahesh Kothare</button>
+            
+
+            
+        </div>
+    </div>
+    <div class="color-container">
+        <h1 class="app-heading">Colors</h1>
+        <img src="colors.jpg" alt="colors" id="colors">
+
+        <div class="btn-group">
+            <button class="color-btn btn-green" onclick="green()">Green</button>
+            <button class="color-btn btn-yellow" onclick="yellow()">Yellow</button>
+            <button class="color-btn btn-tomato" onclick="tomato()">Tomato</button>
+            <button class="color-btn btn-blue" onclick="blue()">Blue</button>
+            
+
+
+        </div>
+
+    </div>
+</div>
+
+    <script>
+        function summer() {
+            let img= document.getElementById(`seasons`);
+            img.src = "sun.png";
+        }
+        function winter() {
+            let img= document.getElementById(`seasons`);
+            img.src = "jaket.png";
+        }
+        function mansoon() {
+            let img= document.getElementById(`seasons`);
+            img.src = "umbrela.png";
+        }
+        function AshokSaraf() {
+            let img= document.getElementById(`actors`);
+            img.src = "Ashok-saraf.jpeg";
+        }
+        function LaxmikantBerde() {
+            let img= document.getElementById(`actors`);
+            img.src = "laxmikant.jpg";
+        }
+        function SachinPilgavkar() {
+            let img= document.getElementById(`actors`);
+            img.src = "sachin.webp";
+        }
+        function MaheshKothare() {
+            let img= document.getElementById(`actors`);
+            img.src = "mahesh.webp";
+            }
+
+        function green()
+        {
+            let img = document.getElementById(`colors`);
+            img.src = "grren.jpg";
+        }
+        function yellow()
+        {
+            let img = document.getElementById(`colors`);
+            img.src = "yellow.jpg";
+        }
+        function tomato()
+        {
+            let img = document.getElementById(`colors`);
+            img.src = "tomato.jpg";
+        }
+        function blue()
+        {
+            let img = document.getElementById(`colors`);
+            img.src = "blue.jpg";
+        }
+
+            </script>
+
+</body>
+
+</html>

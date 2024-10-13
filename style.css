@@ -1,0 +1,169 @@
+body
+{
+    background-color: #a366ff;
+
+}
+.nav-family
+{
+    font-family: Arial;
+    background-color: #001133;
+    height: 100px;
+}
+.page-heading
+{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.toggle-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+
+}
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+
+
+
+}
+.actors-container
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#seasons {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+
+
+}
+#actors
+{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+#colors
+{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.app-heading {
+    font-size: 24px;
+    text-align: center;
+
+}
+.btn-group
+{
+    display: flex;
+    justify-content: space-around;
+}
+.btn
+{
+   
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.actors-btn
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn-summer
+{
+    background-color: #f7dc6f;
+    color: #000;
+
+}
+.btn-winter
+{
+    background-color: #6495ed;
+    color: #000;
+
+}
+.btn-mansoon
+{
+    background-color: #34a85a;
+    color: #000;
+    
+}
+.btn-ashok
+{
+    background-color: #a366ff;
+    color: #000;
+}
+.btn-laxmikant
+{
+    background-color: #ff944d;
+    color: #000;
+}
+.btn-sachin
+{
+    background-color: yellow;
+    color: #000;
+}
+.btn-mahesh
+{
+    background-color:#ff3300 ;
+    color: #000;
+}
+
+.color-container
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+}
+.color-btn
+{
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-green
+{
+    background-color: green;
+    color: #000;
+
+}
+.btn-yellow
+{
+    background-color: yellow;
+    color: #000;
+
+}
+.btn-tomato
+{
+    background-color: tomato;
+    color: #000;
+}
+.btn-blue
+{
+    background-color: blue;
+    color: #000;
+}
